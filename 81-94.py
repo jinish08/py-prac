@@ -1,6 +1,21 @@
 import pandas as pd
 import numpy as np
 
+# # 81
+# arr1 = np.array([1, 2, 3, 4, 5])
+# arr2 = arr1*1.8 + 32
+# print(arr2)
+# arr3 = (arr2-32)*5/9
+# print(arr3)
+
+# # 82
+# arr1 = np.array([4,3,2,1])
+# arr2 = np.array([6,5,4,3])
+
+# arr3 = np.setdiff1d(arr1,arr2)
+
+# print(arr3)
+
 exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
 'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19],
 'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],

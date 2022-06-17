@@ -1,4 +1,5 @@
 from itertools import count
+import matplotlib.pyplot as plt
 import numpy as np
 import os.path
 
@@ -54,6 +55,11 @@ import os.path
 # print(x)
 # r = np.char.join(" ",x)
 # print(r)
+
+# # 34
+# x = np.array([1,2,3,4,5])
+# plt.plot(x,x)
+# plt.show()
 
 # #35
 # num = 1345

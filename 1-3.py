@@ -13,7 +13,7 @@ import math
 # # Q2 
 # x = np.random.randn(50)
 # y = np.random.randn(50)
-# z = math.pi * np.random.randn(50)**2
+# z = math.pi * np.random.randn(50)*3
 # plt.scatter(x,y,s=z,edgecolors='r')
 # plt.show()
 

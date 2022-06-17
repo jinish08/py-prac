@@ -175,19 +175,14 @@ import math
 # class vehicle:
 #     def __init__(self, speed , milege):
 #         self.speed=speed
-#         self.milege=milege
-        
+#         self.milege=milege        
 #     def ride(self):
 #         print("The speed of car is " +self.speed +"  kmph and milege is "+self.milege)
-
 # p1=vehicle("120","20")
 # p1.ride()
-
 # print("---Child class---")
-
 # class bus(vehicle):
 #     pass
-
 # x=bus("140","40")
 # x.ride()
 
@@ -223,7 +218,7 @@ import math
 # sen = ",".join(lis)
 # print(sen)
 
-# 70
+# # 70
 # d = input("Enter a comma seperated sentence: ")
 # list = d.split(",")
 # ans = []
@@ -305,7 +300,6 @@ import math
 # import itertools
 # def findSubsets(s,n):
 #     return list(itertools.combinations(s,n))
-
 # s={1,2,3,4}
 # for n in range(1,len(s)):
 #     print(findSubsets(s,n))
@@ -315,6 +309,7 @@ import math
 #   def twoSum(self, nums, target):
 #        lookup = {}
 #        for i, num in enumerate(nums):
+#            print(i,num)
 #            if target - num in lookup:
 #                return (lookup[target - num], i )
 #            lookup[num] = i

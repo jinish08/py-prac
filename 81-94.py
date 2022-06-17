@@ -11,9 +11,7 @@ import numpy as np
 # # 82
 # arr1 = np.array([4,3,2,1])
 # arr2 = np.array([6,5,4,3])
-
 # arr3 = np.setdiff1d(arr1,arr2)
-
 # print(arr3)
 
 exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
@@ -68,5 +66,7 @@ newdf = pd.DataFrame(exam_data,index=labels)
 # print(newdf)
 
 # 94
+print(newdf)
 # newdf._set_value('h', 'score', 20)
-# print(newdf)
+newdf.at['h','score'] = 20
+print(newdf)
